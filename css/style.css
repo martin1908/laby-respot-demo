@@ -1,0 +1,10 @@
+.fa-google:before {
+	content: "\f1a0";
+	margin-left: -51px !important;
+}
+
+.fa-facebook-f:before,
+.fa-facebook:before {
+	content: "\f09a";
+	margin-left: -35px !important;
+}
