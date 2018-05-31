@@ -1,0 +1,39 @@
+body.pre-body{
+	background: url(../Assets/usuario_general/FAQ/background.jpg);
+}
+.titulo-pre{
+    margin-top: 30px;
+    color: white;
+}
+.preguntas{
+	margin-left: 288px;
+}
+.pr-1{
+	display: flex;
+	justify-content: center;
+    background: #efe5e5;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 100%;
+    max-width: 769px;
+    border-radius: 14px;
+    box-shadow: 1px 0px 8px 0 rgba(0, 0, 0, 0.2), 0px 0px 20px 0 rgba(0, 0, 0, 0.19);
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 30px;
+
+
+}
+.accordion{
+	width: 80%;
+}
+.mb-0 button{
+	color: black;
+	font-size: 20px;
+}
+.mb-0 button:hover{
+	color: #1b1e21 !important;
+    text-decoration: none !important;
+    background-color: transparent;
+    border-color: transparent;
+}
