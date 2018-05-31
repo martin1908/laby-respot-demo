@@ -409,7 +409,7 @@ fieldset {
   overflow: hidden;
   box-shadow: 0 2px 2px 0 rgb(154, 136, 136), 0 3px 1px -2px rgb(150, 122, 122), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
   border-radius: 73px;
-  width: 80%;
+  width: 70%;
 }
 
 .button span {
@@ -564,4 +564,310 @@ fieldset {
 .icono-contraseña {
   margin-left: 301px !important;
   padding: 5px;
+}
+
+/*HOME*/
+
+.body-home {
+  background: #F0F5F6 !important;
+}
+
+.inicio-slider {
+  background-image: url('../Assets/1 home/slider.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 600px;
+}
+
+.contenedor-slider-inicio {
+  background: transparent;
+}
+
+.contenedor-formuarli-inicio {
+  background: #FF9900;
+  height: 440px;
+}
+
+.contenedor-formuarli-inicio h1 {
+  text-align: left;
+  padding: 22px;
+  color: white;
+}
+
+.contenedor-formuarli-inicio input {
+  margin: 8px;
+  border-radius: 4px;
+  border: 1px solid transparent;
+}
+
+.contenedor-formuarli-inicio input::placeholder {
+  color: #6c757d;
+  padding: 12px;
+}
+
+.contenedor-formuarli-inicio select {
+  width: 97%;
+  padding: 7px;
+  margin: 8px;
+  background: white;
+  color: #6c757d;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+
+.boton-contar-home button {
+  font-size: 26px;
+  border-radius: 4px;
+}
+
+.rows-formulario {
+  margin-top: -57px;
+}
+
+/*Seccion 2 home*/
+
+.seccion-2 {
+  background: white !important;
+}
+
+.seccion-2 h1,
+.seccion-2 p {
+  text-align: center;
+}
+
+.seccion-2 h1 {
+  color: #FF9900 !important;
+}
+
+.inica-en-3-pasos-home {
+  background: white;
+}
+
+.boton-empezar-home {
+  background: #f9992d;
+  border: 1px solid transparent;
+  border-radius: 20px;
+  font-size: 20px;
+  padding: 5px;
+  width: 100%;
+}
+
+/*SECCIOM 3*/
+
+.contenedor-inicio-tres-passos {
+  background: white !important;
+}
+
+}
+
+.inica-en-3-pasos-home h1,
+.inica-en-3-pasos-home p {
+  text-align: center;
+}
+
+.inica-en-3-pasos-home h1 {
+  color: #f9992d;
+}
+
+.inica-en-3-pasos-home p {
+  text-align: center;
+}
+
+.contenedor-inicio-tres-passos h2 {
+  font-size: 19px;
+  font-weight: bold;
+}
+
+.contenedor-inicio-tres-passos p {
+  text-align: justify;
+}
+
+.tres-pasos-contenedor-boton {
+  text-align: center;
+}
+
+.tres-pasos-boton {
+  text-align: center;
+  font-size: 20px;
+  width: 200px;
+  background: #00EC2F;
+  border: 1px solid transparent;
+  border-radius: 20px;
+}
+
+/*ESTILO SLIDER*/
+
+.slider-home {
+  background: #FF9900;
+}
+
+.slider-contenedor {
+  background: #FF9900;
+}
+
+.slider-home p {
+  text-align: center;
+  color: black;
+}
+
+.slider-home h1 {
+  color: white;
+  text-align: center;
+}
+
+.contenedor-imagen {
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjlF0H4_P43-yfQ2RX938MC91ZpQyVeRvxDO2KH8vj5hh4P0Wj');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 200px;
+}
+
+.contenedor-imagen h3,
+.contenedor-imagen p {
+  color: white;
+  text-align: center;
+}
+
+.cotenedor-texto {
+  background: white;
+  margin-top: -32px;
+}
+
+.cotenedor-texto p {
+  text-align: justify;
+  padding: 34px;
+}
+
+.cotenedor-texto img {
+  margin-top: -31px;
+}
+
+/*Seccion 4*/
+
+.beneficios-home-cuadros {
+  background: #FF9900;
+}
+
+.contenedor-beneficios {
+  background: #FF9900;
+}
+
+.beneficio-titulo {
+  background: black;
+  height: 136px;
+}
+
+.beneficio-titulo h3 {
+  color: white;
+  text-align: center;
+}
+
+.beneficios-contenido {
+  background: #333;
+  color: white;
+}
+
+.beneficios-contenido h3 {
+  padding: 0px 0px 8px 26px;
+  text-align: left;
+}
+
+.seccion-susbribir {
+  background: #FF9900;
+}
+
+.contenedor-que-beneficios {
+  position: relative;
+  max-width: 60rem;
+  margin: 0rem auto;
+  background: #fff;
+  width: 100%;
+  padding: 3rem 0rem 0;
+  border-radius: 7px !important;
+}
+
+.contenedor-que-beneficios p {
+  padding: 50px;
+  margin-top: -70px;
+}
+
+.boton-suscribir-home button {
+  font-size: 30px !important;
+  border-radius: 4px !important;
+  position: relative;
+  background: currentColor;
+  border: 0px solid currentColor;
+  font-size: 1.1rem;
+  color: #00EC2F;
+  margin: 3rem 0;
+  padding: 0.75rem 3rem;
+  cursor: pointer;
+  -webkit-transition: background-color 0.28s ease, color 0.28s ease, box-shadow 0.28s ease;
+  transition: background-color 0.28s ease, color 0.28s ease, box-shadow 0.28s ease;
+  overflow: hidden;
+  box-shadow: 0 2px 2px 0 rgb(154, 136, 136), 0 3px 1px -2px rgb(150, 122, 122), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+  border-radius: 73px;
+  width: 30%;
+  height: 60px;
+  margin-top: -30px;
+}
+
+/*SECCION 5*/
+
+.respaldan {
+  background: white;
+}
+
+.respaldan h1 {
+  text-align: center;
+  color: #FF9900;
+}
+
+.respaldan p {
+  text-align: center;
+}
+
+/*SECCION 6*/
+
+.ultimas-ofertas {
+  background: rgba(0, 0, 0, 0.38);
+}
+
+.contenedor-ultimas-ofertas {
+  background: rgba(0, 0, 0, 0);
+}
+
+.imagen-1 {
+  background-image: url('https://i.imgur.com/T2nnsa4.jpg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 100%;
+  height: 460px;
+}
+
+.texto-contenedor {
+  background: #21252963;
+}
+
+.imagen-1 h1,
+.imagen-1 p {
+  color: white;
+}
+
+.imagen-1 p {
+  text-align: justify;
+  padding: 12px;
+  margin-top: -50px;
+}
+
+.imagen-2 {
+  background-image: url('https://i.imgur.com/PktKvHX.jpg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 100%;
+  height: 460px;
+}
+
+.imagen-2 h1 {
+  color: white;
 }
