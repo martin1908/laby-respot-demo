@@ -871,3 +871,25 @@ fieldset {
 .imagen-2 h1 {
   color: white;
 }
+/*footer*/
+.plo-foo{
+  background: #343a40;
+  height: 198px;
+}
+.fo-cl{
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+.plo-foo .fo-cl ul{
+  list-style:none; 
+} 
+.plo-foo .fo-cl ul li{
+  text-decoration: none;
+}
+.plo-foo .fo-cl ul li a:hover{
+  text-decoration: none;
+}
+.plo-foo .fo-cl ul li a{
+  color: white;
+}

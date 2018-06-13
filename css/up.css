@@ -1,0 +1,131 @@
+h4{  
+  color: #f29b17;
+  font-weight: bold !important;
+}
+/*perfil*/
+.edit-pfl{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.edit-pfl a{
+  padding-top: 2px;
+  padding-bottom: 2px;
+  border: 1px solid #f1b965;
+  color: #f29b17;
+  box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.28);
+}
+.pro-img{
+  width: 100%;
+}
+.dates{
+  margin-bottom: 40px;
+}
+.dates h4{
+  color: #f29b17;
+  margin-top: 0px;
+  font-weight: bold;
+}
+.dates p{
+  margin-bottom: 0px;
+  color: #5c5b5b;
+  font-weight: bold;
+}
+.text p{
+  text-align: justify;
+}
+.video{
+  margin-left: 30px;
+  margin-right: 30px;
+}
+.certif h4{
+  color: #f29b17;
+  font-weight: bold;
+}
+.certif p{
+  text-align: justify;
+}
+.certif .doc .gr-d{
+  display: grid;
+}
+.certif .doc .gr-d a{
+  margin-bottom: 5px;
+}
+.certif .doc .gr-d img{
+  width: 25px;
+}
+.pago{
+  margin-bottom: 30px;
+}
+.pago h4{
+  color: #f29b17;
+  font-weight: bold;
+}
+.pago p{
+  text-align: justify;
+}
+.pago .banco h5{
+  margin-top: 0px;
+}
+.pago .bto-pg a{
+  padding-top: 2px;
+  padding-bottom: 2px;
+  border-top-width: 0px;
+  border-bottom-width: 0px;
+  background: orange;
+  color: white;
+}
+
+/*editar perfil*/
+.btn-prof-edit{
+  margin: auto;
+  text-align: center;
+}
+.btn-prof-edit button{
+  padding: 0px 15px;
+  background: #32ae32;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  box-shadow: -1px 1px 6px 0px rgba(0,0,0,0.75);
+}
+.options-sex{
+  font-size: 14px;
+  height: 36px;
+}
+.w-ipt{
+  width: 80%;
+  display: inline-flex;
+}
+.lis-cert a img{
+  margin-left: 9px;
+  width: 10%;
+}
+.lis-cert a{
+  color: black;
+}
+.ant-ed{
+  width: 92%;
+}
+.video-link{
+  width: 85%;
+  display: inline-flex;
+}
+.vid-img-check img{
+  margin-left: 10px;
+  margin-bottom: 2px;
+}
+
+.displayNone{
+  display:none;
+}
+.selectbtn{
+  height:30px;
+  background-color:#a8d09100;
+  border:0px solid #a8d09100;
+  border-radius:5px;
+  cursor:pointer;
+  margin-left: 5px;
+}
+.inputbox{
+  width: 90%;
+  display: inline-flex;
+}
