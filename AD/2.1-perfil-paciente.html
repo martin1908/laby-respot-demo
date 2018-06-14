@@ -1,0 +1,236 @@
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+        <title>
+            Document
+        </title>
+        <link crossorigin="anonymous" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" rel="stylesheet"/>
+        <!-- <link href="css/estilos.css" rel="stylesheet"/>-->
+        <!-- <link href="css/responsive.css" rel="stylesheet"/>-->
+        <!-- <link href="css/style.css" rel="stylesheet"/>-->
+        <link crossorigin="anonymous" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" rel="stylesheet"/>
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
+        <link href="../css/ad.css" rel="stylesheet"/>
+        <link href="../css/up.css" rel="stylesheet"/>
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
+        <link href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css" rel="stylesheet"/>
+    </head>
+    <body class="body-2-2-perfil-paciente">
+      <div class="admin-panel administrador-panel">
+        <div class="container">
+          <div class="row">
+            <div class="mdl-tabs vertical-mdl-tabs mdl-js-tabs mdl-js-ripple-effect">
+              <div class="mdl-grid mdl-grid--no-spacing">
+                <div class="mdl-cell mdl-cell--2-col nav-ad">
+                  <div class="mdl-tabs__tab-bar">
+                    <a class="mdl-tabs__tab is-active tab-ad-nav" href="#tab1-panel">
+                      <img alt="" src="../Assets/perfil estudiante/profile.png"/>
+                      <span class="hollow-circle">
+                          Ver perfil
+                      </span>
+                       <!--
+                      <div class="collapse multi-collapse" id="atencioncliente">
+                      <a class="dropdown-item is-active" href="#tab1-panel">Buscar usuario</a>
+                      <a class="dropdown-item" href="#tab2-panel">Registra nuevo</a>
+                      </div>
+                      -->
+                    </a>
+                    <a class="mdl-tabs__tab tab-ad-nav" href="#tab2-panel">
+                      <img alt="" src="../Assets/perfil estudiante/suscribirse.png"/>
+                      <span class="hollow-circle">
+                          Suscribirte
+                      </span>
+                    </a>
+                    <a class="mdl-tabs__tab tab-ad-nav" href="#tab3-panel">
+                      <img alt="" src="../Assets/perfil paciente/entrenamiento.png"/>
+                      <span class="hollow-circle">
+                          Plan de entrenamiento
+                      </span>
+                    </a>
+                    <a class="mdl-tabs__tab tab-ad-nav" href="#tab2-panel">
+                      <img alt="" src="../Assets/perfil paciente/buscar-profe.png"/>
+                      <span class="hollow-circle">
+                        Buscar profesional
+                      </span>
+                    </a>
+                  </div>
+                </div>
+                <div class="mdl-cell mdl-cell--10-col">
+                  <div class="mdl-tabs__panel is-active main-ad" id="tab1-panel">
+                    <div class="col-md-12 row">
+                      <div class="col-md-3 col-12 text-center">
+                        <img class="pro-img" src="../Assets/perfiladministrativo/perfil.png" alt="">
+                      </div>
+                      <div class="col-md-9 col-12">
+                        <div class="formularios">
+                          <div class="title">
+                            <h4>Datos de sesión</h4>
+                          </div>
+                          <div class="formu">
+                            <form action="">
+                              <div class="col-md-12 col-12 row">
+                                <div class="col-md-6 col-12">
+                                  <div class="form-group">
+                                    <label for="validationDefault01">Nombre</label>
+                                    <input type="text" class="form-control" id="validationDefault01" placeholder="Nombre" required>
+                                  </div>
+                                </div>
+                                <div class="col-md-6 col-12">
+                                  <div class="form-group">
+                                    <label for="validationDefault02">Apellido</label>
+                                    <input type="text" class="form-control" id="validationDefault02" placeholder="Apellido" required>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-md-12 col-12 row">
+                                <div class="col-md-6 col-12">
+                                  <div class="form-group">
+                                    <label for="">Teléfono</label>
+                                    <input class="form-control" type="number" maxlength="9" id="example-number-input">
+                                  </div>                                  
+                                </div>
+                                <div class="col-md-6 col-12">
+                                  <div class="form-group">
+                                    <label for="InputEmail">Correo</label>
+                                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                                  </div>                                  
+                                </div>
+                              </div>
+                              <div class="col-md-12 col-12 row">
+                                <div class="col-md-6 col-12">
+                                  <div class="form-group">
+                                    <label for="InputPassword">Contraseña</label>
+                                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Contraseña">
+                                  </div>                                  
+                                </div>
+                                <div class="col-md-6 col-12 btn-prof-edit">
+                                  <button type="submit" class="btn btn-primary">Cambiar contraseña</button>
+                                </div>
+                              </div>
+                            </form>                            
+                          </div>
+                        </div>
+                        <div class="others">
+                          <h4>Datos personales</h4>
+                          <div class="formu">
+                            <form>
+                              <div class="col-md-12 col-12 row">
+                                <div class="col-md-6 col-12">
+                                  <div class="form-group">
+                                    <label for="example-date-input" class="col-form-label">Fecha de nacimiento</label>
+                                    <input class="form-control w-ipt" type="date" value="2018-06-04" id="example-date-input">
+                                    <img src="../Assets/perfiladministrativo/calendar.png" alt="">
+                                  </div>                    
+                                </div>
+                                <div class="col-md-6 col-12">
+                                  <label for="example-date-input" class="col-form-label">Sexo</label>
+                                  <select class="custom-select custom-select-lg mb-3 options-sex">
+                                    <option selected disabled>Sexo</option>
+                                    <option value="1">Femenino</option>
+                                    <option value="2">Masculino</option>
+                                  </select>
+                                </div>
+                              </div>
+                              <div class="col-md-12 col-12 row">
+                                <div class="col-md-6 col-12">
+                                  <div class="form-group">
+                                    <label for="example-date-input">Ocupación</label>
+                                    <input type="text" class="form-control" id="Ocupación" placeholder="Ocupación" required>
+                                  </div>
+                                </div>
+                                <div class="col-md-6 col-12">
+                                  <div class="form-group">
+                                    <label for="dni">Documento de identidad</label>
+                                    <input class="form-control" type="number" maxlength="8" id="dni">
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-md-12 col-12 row">
+                                <div class="col-md-6 col-12">
+                                  <div class="form-group">
+                                    <label for="peso">Peso</label>
+                                    <div class="input-pt">
+                                      <input class="form-control w-pt-pp" type="number" maxlength="4" id="peso">
+                                      <p>Kg.</p>                                    
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="col-md-6 col-12">
+                                  <div class="form-group">
+                                    <label for="tall">Talla</label>
+                                    <div class="input-pt">
+                                      <input class="form-control w-pt-pp" type="number" maxlength="4" id="talla">
+                                      <p>Metros</p>                                    
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </form>
+                          </div>
+                        </div>
+                        <div class="habitos">
+                          <h4>Hábitos</h4>
+                          <div class="formu">
+                            <form action="">
+                              <div class="col-md-12 col-12">
+                                <div class="form-group">
+                                  <label for="exampleFormControlTextarea1">Nutricionales</label><small id="small-habit" class="form-text text-muted text-small">Describa brevemente sus comidas durante el día.</small>
+                                  <textarea class="form-control area-habit" id="exampleFormControlTextarea1" rows="3"></textarea>
+                                </div>
+                                <div class="form-group">
+                                  <label for="exampleFormControlTextarea1">Tabaquinos</label><small id="small-habit" class="form-text text-muted text-small">Cuantos al día y desde que edad</small>
+                                  <textarea class="form-control area-habit" id="exampleFormControlTextarea1" rows="3"></textarea>
+                                </div>
+                                <div class="form-group">
+                                  <label for="exampleFormControlTextarea1">Cafeicos</label><small id="small-habit" class="form-text text-muted text-small">Cuantos al día y desde que edad</small>
+                                  <textarea class="form-control area-habit" id="exampleFormControlTextarea1" rows="3"></textarea>
+                                </div>
+                                <div class="form-group">
+                                  <label for="exampleFormControlTextarea1">Alcoholicos</label><small id="small-habit" class="form-text text-muted text-small">Cuantos al día y desde que edad</small>
+                                  <textarea class="form-control area-habit" id="exampleFormControlTextarea1" rows="3"></textarea>
+                                </div>
+                                <div class="form-group">
+                                  <label for="exampleFormControlTextarea1">Actividad física y deporte</label><small id="small-habit" class="form-text text-muted text-small">Cuantos minutos/horas al dia, de que tipo y desde que edad.</small>
+                                  <textarea class="form-control area-habit" id="exampleFormControlTextarea1" rows="3"></textarea>
+                                </div>
+                              </div>
+                            </form>
+                          </div>
+                        </div>
+                        <div class="antecedentes">
+                          <h4>Antecedentes Patológicos</h4>
+                          <div class="col-md-12 col-12">
+                            <div class="formu">
+                              <form>
+                                <div class="form-group">
+                                  <label for="diabetes">Diabetes</label>
+                                    <button type="button" class="btn btn-sm btn-toggle active" data-toggle="button" aria-pressed="true" autocomplete="off">
+                                      <div class="handle"></div>
+                                    </button>
+                                </div>
+                              </form>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </body>
+    <script crossorigin="anonymous" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" src="https://code.jquery.com/jquery-3.3.1.slim.min.js">
+    </script>
+    <script crossorigin="anonymous" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js">
+    </script>
+    <script crossorigin="anonymous" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js">
+    </script>
+    <script src="../js/ad.js">
+    </script>
+    <script defer="" src="https://code.getmdl.io/1.3.0/material.min.js">
+    </script>
+</html>
