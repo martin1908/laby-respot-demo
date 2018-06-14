@@ -65,8 +65,11 @@ li {
 .slidebar li:focus i {
   color: #17BCE8;
 }
-.nav-ad{
-  background: #f29b17;
+a.is-active.nav-ad{
+  background: #F29200;
+}
+a.nav-ad{
+  background: #F09300;
 }
 .tab-ad-nav{
   padding: 0px !important;
@@ -77,7 +80,6 @@ li {
   font-weight: bold !important;
   text-decoration: none !important;
   height: 114px !important;
-  border: 1px solid !important;
   padding-top: 11px !important;
 }
 .tab-ad-nav img{
@@ -165,12 +167,13 @@ li {
 }
 
 .vertical-mdl-tabs .mdl-tabs__tab:hover {
-  background: rgba(158, 158, 158, 0.34);
+  background: #626262eb;
   color: black;
 }
 
 .vertical-mdl-tabs.mdl-tabs.is-upgraded a.mdl-tabs__tab.is-active {
-    border-right: 3px solid #ED462F;
+  border-right: 3px solid #6f6b6b;
+  background: #FFA513;
 }
 .vertical-mdl-tabs.mdl-tabs.is-upgraded .mdl-tabs__tab.is-active:after {
     content: inherit;
