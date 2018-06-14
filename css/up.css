@@ -31,7 +31,8 @@ label{
 }*/
 
 .pro-img {
-  width: 100%;
+  width: 93%;
+  margin: 10px;
 }
 
 .dates {
@@ -142,8 +143,11 @@ label{
   border-bottom-width: 0px;
   background: orange;
   color: white;
+  margin: 2px 0px;
 }
-
+.pago .bto-pg .bnc-2{
+  padding: 2px 19px;
+}
 /*editar perfil*/
 .btn-prof-edit{
   margin: auto;
@@ -691,4 +695,38 @@ label{
 }
 .btn-toggle.btn-sm.btn-sm.active:after {
   opacity: 1;
+}
+
+@media(max-width: 839px){
+  .responsive-panel{
+    display: flex !important;
+    width: 100% !important;
+  }
+  .mdl-tabs__tab-bar{
+    display: contents !important;
+  }
+}
+@media(max-width: 767px){
+  .pro-img{
+    width: 39%;
+    margin: 10px;
+  }
+  .dates h4, p{
+    text-align: center;
+  }
+  .certif .doc .gr-d{
+    text-align: center !important;
+  }
+  .banco h5, .banco .bto-pg{
+    text-align: center;
+  }
+  .pago .banco h5 {
+    margin-top: 10px;
+  }
+}
+@media(max-width: 460px){
+  .video {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
 }

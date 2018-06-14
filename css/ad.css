@@ -141,6 +141,10 @@ a.nav-ad{
 .bton2-ad{
   margin-left: 36px;
 }
+.no-mg{
+  margin-left: 0px;
+  margin-right: 0px;
+}
 /*Vertical Tabs*/
 .mdl-tabs__panel {
   display: none;
@@ -155,7 +159,6 @@ a.nav-ad{
     padding-bottom: 35px;
     height: inherit;
     border-bottom: none;
-    border-right: 1px solid rgba(10, 11, 49, 0.20);
 }
 
 .vertical-mdl-tabs .mdl-tabs__tab {
