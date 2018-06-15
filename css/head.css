@@ -133,3 +133,87 @@ ul.links li.icon {display: none;}
 .med-h5{
   margin-top: 10px;
 }
+.bt-ug .b1-btn{
+  margin: 27px 5px;
+  background: #02D431;
+  padding: 3px 20px;
+  border-radius: 17px;
+  font-size: 15px;
+  color: white;
+}
+.bt-ug .b2-btn{
+  border: 1px solid #ECAD31;
+  background: transparent;
+  padding: 3px 20px;
+  border-radius: 17px;
+  font-size: 15px;
+  color: #ECAD31;
+  margin: 27px 5px;
+}
+.log-h:hover{
+  background: transparent !important;
+}
+.icon a.bt-hambur:hover{
+  background: #565655;
+  color: white;
+}
+ul.links li a.nv-3r:hover{
+  background-color: #565655;
+  color: white;
+}
+.bt-ug .b1-btn:hover{
+  background: #565655;
+}
+.bt-ug .b2-btn:hover{
+  background: #565655;
+  color: white;
+  border: transparent;
+}
+@media(max-width: 900px){
+  .bt-ug .b1-btn {
+    margin: 27px 5px;
+    background: #02D431;
+    padding: 3px 15px;
+    border-radius: 17px;
+    font-size: 15px;
+    color: white;
+  }
+  .bt-ug .b2-btn {
+    border: 1px solid #ECAD31;
+    background: transparent;
+    padding: 3px 15px;
+    border-radius: 17px;
+    font-size: 15px;
+    color: #ECAD31;
+    margin: 27px 5px;
+  }
+  ul.links li a.nv-3r{
+    padding: 20px 10px;
+  }
+}
+@media(max-width: 826px){
+  .bt-ug .b1-btn {
+    margin: 27px 5px;
+    background: #02D431;
+    padding: 2px 10px;
+    border-radius: 17px;
+    font-size: 15px;
+    color: white;
+    text-align: center !important;
+  }
+  .bt-ug .b2-btn {
+    border: 1px solid #ECAD31;
+    background: transparent;
+    padding: 2px 10px;
+    border-radius: 17px;
+    font-size: 15px;
+    color: #ECAD31;
+    margin: 27px 5px;
+    text-align: center !important;
+  }
+}
+@media(max-width: 789px){
+  ul.links li a.nv-3r {
+    padding: 20px 6px;
+  }
+}
