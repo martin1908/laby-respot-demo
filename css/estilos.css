@@ -1242,7 +1242,6 @@ fieldset {
 
 .plo-foo {
   background: #343a40;
-  height: 198px;
 }
 
 .fo-cl {
@@ -1282,4 +1281,15 @@ fieldset {
 
 .fo-cl .text-right img {
   padding: 3px;
+}
+@media(max-width: 767px){
+  .fo-cl ul{
+    text-align: center !important;
+  }
+  .fo-cl img{
+    margin: 15px 0px;
+  }
+  .fo-cl-2{
+    margin-top: 20px;
+  }
 }

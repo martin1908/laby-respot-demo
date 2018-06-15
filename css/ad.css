@@ -342,4 +342,11 @@ a.nav-ad{
   display: flex !important;
   justify-content: flex-end !important;
 }
-@media(max-width: )
+@media(max-width: 767px){
+  .bton1-ad{
+    margin-left: 0px;
+  }
+  .bton2-ad{
+    margin-left: 0px;
+  }
+}
