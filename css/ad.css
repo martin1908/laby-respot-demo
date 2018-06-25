@@ -350,3 +350,216 @@ a.nav-ad{
     margin-left: 0px;
   }
 }
+
+
+
+
+
+/*vista estudiante*/
+.ti-ad-es{
+  margin: 13px 0px;
+}
+.card-card{
+  margin: 3px 5px;
+}
+.card-title{
+  font-weight: bold;
+  text-align: left;
+}
+.card-text{
+  text-align: justify;
+  line-height: normal;
+}   
+.card-link{
+  text-align: right;
+  background: #ffa513;
+  color: white;
+  padding: 4px 8px;
+  border-radius: 29px;
+} 
+.card-btn{
+  border: 1px solid #ffa513;
+}
+.card-btn a:hover{
+  text-decoration: none;
+}
+.card-btn img{
+  margin: 15px;
+}
+.card-btn p{
+  color: orange;
+  font-weight: bold;
+}
+.acc-ad-es{
+  background: white;
+  border-radius: 7px;
+}
+.ac-2{
+  margin: 15px;
+}
+.modulos-cls{
+  border: none;
+}
+.card-colps{
+  background: transparent;
+  border: none !important;
+  padding: 5px 0px;
+}
+.card-colps h5{
+  margin-top: 0px;
+}
+.card-colps h5 button{
+  width: 100%;
+  text-align: left;
+  color: #279B6E;
+  font-weight: bold;
+}
+.card-colps h5 button:hover{
+  color: #515151;
+  text-decoration: none;
+}
+.col-clss ul{
+  margin: 0px 25px;
+}
+.col-clss ul li{
+  border: none;
+  color: #6f6b6b;
+}
+.col-clss ul li.li-exm{
+  color: #1993CD;
+}
+
+
+
+@import url(//fonts.googleapis.com/icon?family=Material+Icons);
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+  /* Support for IE. */
+  font-feature-settings: 'liga';
+}
+
+.material-icons {
+  white-space: normal;
+  letter-spacing: 0px;
+  line-height: 28px;
+  text-decoration: none;
+}
+
+.icon {
+  z-index: 100;
+  padding: 2px;
+  position: relative;
+  color: #E0E0E0;
+  transition-property: scale, color;
+  transition-duration: 0.2s;
+  transition-timing-function: ease-out;
+}
+
+
+
+.icon-active {
+  color: #5607A6;
+}
+
+.icon-selected {
+  color: #6800C3;
+}
+
+.icon-burst {
+  position: absolute;
+  left: -50%;
+  top: -50%;
+  height: 58px;
+  width: 58px;
+  z-index: -100;
+}
+
+.demo {
+  display: flex;
+  justify-content: center;
+}
+
+/*icoonnn arriba abajo*/
+.icon-ab {
+  border-radius:2px;
+  cursor:pointer;
+}
+.icon-ab span{
+  position: absolute;
+  top: -11px;
+  right: 39px;
+}
+.icon-ab span:after{
+  content: "";
+  width: 10px;
+  height: 2px;
+  background-color: #6F6B6B;
+  display: block;
+  position: absolute;
+  top: 25px;
+  left:16px;
+  -moz-transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  -webkit-transition: all .1s linear;
+  -moz-transition: all .1s linear;
+  -ms-transition: all .1s linear;
+  -o-transition: all .1s linear;
+  transition: all .1s linear;
+  border-radius:50px;
+}
+.icon-ab span:before{
+  content: "";
+  width: 10px;
+  height: 2px;
+  display: block;
+  position: absolute;
+  top: 25px;
+  left: 22px;
+  background-color: #6F6B6B;
+  -moz-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+  -webkit-transition: all .1s linear;
+  -moz-transition: all .1s linear;
+  -ms-transition: all .1s linear;
+  -o-transition: all .1s linear;
+  transition: all .1s linear;
+  border-radius:50px;
+}
+.icon-active span:before{
+  -moz-transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+.icon-active span:after{
+  -moz-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}

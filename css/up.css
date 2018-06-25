@@ -986,3 +986,24 @@ label {
     margin-right: 0px;
   }
 }
+.botones-ad{
+  padding: 0px;
+  margin: 15px 0px;
+}
+.botones-ad button{
+  width: 100%;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  background: transparent;
+  border: 1px solid #ffa513;
+  border-radius: 25px;
+  color: #ffa513;
+}
+.botones-ad button:hover{
+  width: 100%;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  background: #ffa513;
+  border: 1px solid #ffa513;
+  border-radius: 25px;
+}

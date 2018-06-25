@@ -1,0 +1,428 @@
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <title>Document</title>
+    <link crossorigin="anonymous" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" rel="stylesheet"/>
+    <link crossorigin="anonymous" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" rel="stylesheet"/>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
+    <link href="../css/ad.css" rel="stylesheet"/>
+    <link href="../css/up.css" rel="stylesheet"/>
+    <link href="../css/head.css" rel="stylesheet"/>
+    <link href="../css/responsive.css" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
+    <link href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css" rel="stylesheet"/>
+  </head>
+  <body class="body-2-2-perfil-paciente">
+    <div class="admin-panel administrador-panel">
+      <div class="container">
+        <div class="row">
+          <div class="mdl-tabs vertical-mdl-tabs mdl-js-tabs mdl-js-ripple-effect">
+            <div class="mdl-grid mdl-grid--no-spacing">
+              <div class="mdl-cell mdl-cell--2-col responsive-panel">
+                <div class="mdl-tabs__tab-bar"><a href="#tab1-panel" class="mdl-tabs__tab is-active tab-ad-nav nav-ad"><img alt="" src="../Assets/perfilestudiante/profile.png"/><span class="hollow-circle">Ver perfil</span>
+                    <!--
+                    <div class="collapse multi-collapse" id="atencioncliente">
+                    <a class="dropdown-item is-active" href="#tab1-panel">Buscar usuario</a>
+                    <a class="dropdown-item" href="#tab2-panel">Registra nuevo</a>
+                    </div>
+                    --></a><a href="#tab2-panel" class="mdl-tabs__tab tab-ad-nav nav-ad"><img alt="" src="../Assets/perfilestudiante/suscribirse.png"/><span class="hollow-circle">Suscribirte</span></a><a href="#tab3-panel" class="mdl-tabs__tab tab-ad-nav nav-ad"><img alt="" src="../Assets/perfilpaciente/entrenamiento.png"/><span class="hollow-circle">Plan de entrenamiento</span></a><a href="#tab2-panel" class="mdl-tabs__tab tab-ad-nav nav-ad"><img alt="" src="../Assets/perfilpaciente/buscar-profe.png"/><span class="hollow-circle">Buscar profesional</span></a></div>
+              </div>
+              <div class="mdl-cell mdl-cell--10-col">
+                <div id="tab1-panel" class="mdl-tabs__panel is-active main-ad">
+                  <div class="col-md-12 text-center row botones-ad">
+                    <div class="col-md-4">
+                      <button type="submit" class="btn btn-primary">Ver perfil</button>
+                    </div>
+                    <div class="col-md-4">
+                      <button type="submit" class="btn btn-primary">Ver membresias</button>
+                    </div>
+                    <div class="col-md-4">
+                      <button type="submit" class="btn btn-primary">Planes de entrenamiento</button>
+                    </div>
+                  </div>
+                  <div class="col-md-12 no-pd mg-ct2 row">
+                    <div class="col-md-12 text-right">
+                      <div class="edit-pfl"><a href="#" class="btn">Editar Perfil<img src="../Assets/perfiladministrativo/edit.png" alt=""/></a></div>
+                    </div>
+                    <div class="col-md-3 col-12 text-center"><img src="../Assets/perfiladministrativo/perfil.png" alt="" class="pro-img"/></div>
+                    <div class="col-md-9 col-12">
+                      <div class="formularios">
+                        <div class="title">
+                          <h4>Datos de sesión</h4>
+                        </div>
+                        <div class="formu">
+                          <form action="">
+                            <div class="col-md-12 col-12 row">
+                              <div class="col-md-6 col-12">
+                                <div class="form-group">
+                                  <label for="validationDefault01">Nombre</label>
+                                  <input id="validationDefault01" type="text" placeholder="Nombre" required="" class="form-control"/>
+                                </div>
+                              </div>
+                              <div class="col-md-6 col-12">
+                                <div class="form-group">
+                                  <label for="validationDefault02">Apellido</label>
+                                  <input id="validationDefault02" type="text" placeholder="Apellido" required="" class="form-control"/>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col-md-12 col-12 row">
+                              <div class="col-md-6 col-12">
+                                <div class="form-group">
+                                  <label for="">Teléfono</label>
+                                  <input id="example-number-input" type="number" maxlength="9" class="form-control"/>
+                                </div>
+                              </div>
+                              <div class="col-md-6 col-12">
+                                <div class="form-group">
+                                  <label for="InputEmail">Correo</label>
+                                  <input id="exampleInputEmail1" type="email" aria-describedby="emailHelp" placeholder="Enter email" class="form-control"/>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col-md-12 col-12 row">
+                              <div class="col-md-6 col-12">
+                                <div class="form-group">
+                                  <label for="InputPassword">Contraseña</label>
+                                  <input id="exampleInputPassword1" type="password" placeholder="Contraseña" class="form-control"/>
+                                </div>
+                              </div>
+                              <div class="col-md-6 col-12 btn-prof-edit">
+                                <button type="submit" class="btn btn-primary">Cambiar contraseña</button>
+                              </div>
+                            </div>
+                          </form>
+                        </div>
+                      </div>
+                      <div class="others">
+                        <h4>Datos personales</h4>
+                        <div class="formu">
+                          <form>
+                            <div class="col-md-12 col-12 row">
+                              <div class="col-md-6 col-12">
+                                <div class="form-group">
+                                  <label for="example-date-input">Fecha de nacimiento</label>
+                                  <input id="example-date-input" type="date" value="2018-06-04" class="form-control w-ipt"/><img src="../Assets/perfiladministrativo/calendar.png" alt="" class="img-lg"/>
+                                </div>
+                              </div>
+                              <div class="col-md-6 col-12">
+                                <label for="example-date-input">Sexo</label>
+                                <select class="custom-select custom-select-lg mb-3 options-sex">
+                                  <option selected="" disabled="">Sexo</option>
+                                  <option value="1">Femenino</option>
+                                  <option value="2">Masculino</option>
+                                </select>
+                              </div>
+                            </div>
+                            <div class="col-md-12 col-12 row">
+                              <div class="col-md-6 col-12">
+                                <div class="form-group">
+                                  <label for="example-date-input">Ocupación</label>
+                                  <input type="text" id="Ocupación" placeholder="Ocupación" required="" class="form-control"/>
+                                </div>
+                              </div>
+                              <div class="col-md-6 col-12">
+                                <div class="form-group">
+                                  <label for="dni">Documento de identidad</label>
+                                  <input id="dni" type="number" maxlength="8" class="form-control"/>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col-md-12 col-12 row">
+                              <div class="col-md-6 col-12">
+                                <div class="form-group">
+                                  <label for="peso">Peso</label>
+                                  <div class="input-pt">
+                                    <input id="peso" type="number" maxlength="4" class="form-control w-pt-pp"/>
+                                    <p>Kg.</p>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-md-6 col-12">
+                                <div class="form-group">
+                                  <label for="tall">Talla</label>
+                                  <div class="input-pt">
+                                    <input id="talla" type="number" maxlength="4" class="form-control w-pt-pp"/>
+                                    <p>Metros</p>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </form>
+                        </div>
+                      </div>
+                      <div class="habitos">
+                        <h4>Hábitos</h4>
+                        <div class="formu">
+                          <form action="">
+                            <div class="col-md-12 col-12">
+                              <div class="col-md-12 col-12">
+                                <div class="form-group">
+                                  <label for="exampleFormControlTextarea1">Nutricionales</label><small id="small-habit" class="form-text text-muted text-small">Describa brevemente sus comidas durante el día.</small>
+                                  <textarea id="exampleFormControlTextarea1" rows="3" class="form-control area-habit"></textarea>
+                                </div>
+                                <div class="form-group">
+                                  <label for="exampleFormControlTextarea1">Tabaquinos</label><small id="small-habit" class="form-text text-muted text-small">Cuantos al día y desde que edad</small>
+                                  <textarea id="exampleFormControlTextarea1" rows="3" class="form-control area-habit"></textarea>
+                                </div>
+                                <div class="form-group">
+                                  <label for="exampleFormControlTextarea1">Cafeicos</label><small id="small-habit" class="form-text text-muted text-small">Cuantos al día y desde que edad</small>
+                                  <textarea id="exampleFormControlTextarea1" rows="3" class="form-control area-habit"></textarea>
+                                </div>
+                                <div class="form-group">
+                                  <label for="exampleFormControlTextarea1">Alcoholicos</label><small id="small-habit" class="form-text text-muted text-small">Cuantos al día y desde que edad</small>
+                                  <textarea id="exampleFormControlTextarea1" rows="3" class="form-control area-habit"></textarea>
+                                </div>
+                                <div class="form-group"></div>
+                                <label for="exampleFormControlTextarea1">Actividad física y deporte</label><small id="small-habit" class="form-text text-muted text-small">Cuantos minutos/horas al dia, de que tipo y desde que edad.</small>
+                                <textarea id="exampleFormControlTextarea1" rows="3" class="form-control area-habit"></textarea>
+                              </div>
+                            </div>
+                          </form>
+                        </div>
+                      </div>
+                      <div class="antecedentes">
+                        <h4>Antecedentes Patológicos</h4>
+                        <div class="formu">
+                          <form>
+                            <div class="col-md-12 col-12 row">
+                              <div class="col-md-6">
+                                <div class="form-group">
+                                  <h6>Diabetes</h6>
+                                </div>
+                              </div>
+                              <div class="col-md-6 text-right">
+                                <button type="button" data-toggle="button" aria-pressed="Si" autocomplete="No" class="btn btn-sm btn-toggle active">
+                                  <div class="handle"></div>
+                                </button>
+                              </div>
+                            </div>
+                            <div class="col-md-12 col-12 row">
+                              <div class="col-md-4 col-sm-4 col-6 no-pd1">
+                                <div class="form-group">
+                                  <label for="dni">Edad de diagnostico</label>
+                                  <input id="dni" type="number" maxlength="8" class="form-control w-pt-pp"/>
+                                </div>
+                              </div>
+                              <div class="col-md-4 col-sm-4 col-6 no-pd ej-r">
+                                <div class="form-group">
+                                  <label for="dni">Última cifra de glucosa</label>
+                                  <input id="dni" type="number" maxlength="8" class="form-control w-pt-pp"/>
+                                </div>
+                              </div>
+                              <div class="col-md-4 col-sm-4 col-12 no-pd eje-r2">
+                                <div class="form-group">
+                                  <label for="dni">Última fecha de glucosa</label>
+                                  <input id="example-date-input" type="date" value="2018-06-04" class="form-control w-ipt"/><img src="../Assets/perfiladministrativo/calendar.png" alt="" class="img-lg"/>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col-md-12 col-12">
+                              <div class="col-md-12 col-12">
+                                <div class="form-group">
+                                  <label for="exampleFormControlTextarea1">Tratamientos</label>
+                                  <textarea id="exampleFormControlTextarea1" rows="3" class="form-control area-habit"></textarea>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col-md-12 col-12 row">
+                              <div class="col-md-6">
+                                <div class="form-group">
+                                  <h6>Hipertensión arterial</h6>
+                                </div>
+                              </div>
+                              <div class="col-md-6 text-right">
+                                <button type="button" data-toggle="button" aria-pressed="Si" autocomplete="No" class="btn btn-sm btn-toggle active">
+                                  <div class="handle"></div>
+                                </button>
+                              </div>
+                            </div>
+                            <div class="col-md-12 col-12 row">
+                              <div class="col-md-4 col-sm-4 col-6 no-pd1">
+                                <div class="form-group">
+                                  <label for="tall">Edad de diagnostico</label>
+                                  <div class="input-pt">
+                                    <input id="talla" type="number" maxlength="4" class="form-control w-pt-pp"/>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-md-4 col-sm-4 col-6 no-pd wt-ta">
+                                <div class="form-group">
+                                  <label for="tall">Última toma de TA</label>
+                                  <div class="input-pt">
+                                    <input id="talla" type="number" maxlength="4" class="form-control w-pt-pp"/>
+                                    <p>mg/dl</p>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-md-4 col-sm-4 col-12 no-pd wt-md">
+                                <div class="form-group">
+                                  <label for="tall">Última fecha de medición</label>
+                                  <div class="input-pt">
+                                    <input id="example-date-input" type="date" value="2018-06-04" class="form-control w-ipt"/><img src="../Assets/perfiladministrativo/calendar.png" alt="" class="img-lg"/>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col-md-12 col-12">
+                              <div class="col-md-12 col-12">
+                                <div class="form-group">
+                                  <label for="exampleFormControlTextarea1">Tratamientos</label>
+                                  <textarea id="exampleFormControlTextarea1" rows="3" class="form-control area-habit"></textarea>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col-md-12 col-12 row">
+                              <div class="col-md-10">
+                                <div class="form-group">
+                                  <h6>Displidemia (Colesterol o trigliceridos altos)</h6>
+                                </div>
+                              </div>
+                              <div class="col-md-2 text-right">
+                                <button type="button" data-toggle="button" aria-pressed="Si" autocomplete="No" class="btn btn-sm btn-toggle active">
+                                  <div class="handle"></div>
+                                </button>
+                              </div>
+                            </div>
+                            <div class="col-md-12 col-12 row">
+                              <div class="col-md-6 col-sm-6 col-12 cl-1">
+                                <div class="form-group">
+                                  <label for="tall">Edad de diagnostico</label>
+                                  <div class="input-pt">
+                                    <input id="talla" type="number" maxlength="4" class="form-control w-pt-pp"/>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-md-6 col-sm-6 col-12 cl-2">
+                                <div class="form-group">
+                                  <label for="tall">Última cifra de colesterol</label>
+                                  <div class="input-pt">
+                                    <input id="talla" type="number" maxlength="4" class="form-control w-pt-pp"/>
+                                    <p>mg/dl</p>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-md-6 col-sm-6 col-12 cl-3">
+                                <div class="form-group">
+                                  <label for="tall">Última cifra de tigliceridos</label>
+                                  <div class="input-pt">
+                                    <input id="talla" type="number" maxlength="4" class="form-control w-pt-pp"/>
+                                    <p>mg/dl</p>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-md-6 col-sm-6 col-12 no-pd1">
+                                <div class="form-group">
+                                  <label for="tall">Última fecha de medición</label>
+                                  <div class="input-pt">
+                                    <input id="example-date-input" type="date" value="2018-06-04" class="form-control w-ipt"/><img src="../Assets/perfiladministrativo/calendar.png" alt="" class="img-lg"/>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col-md-12 col-12">
+                              <div class="col-md-12 col-12">
+                                <div class="form-group">
+                                  <label for="exampleFormControlTextarea1">Tratamientos</label>
+                                  <textarea id="exampleFormControlTextarea1" rows="3" class="form-control area-habit"></textarea>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col-md-12 col-12 row">
+                              <div class="col-md-6">
+                                <div class="form-group">
+                                  <h6>Otros</h6>
+                                </div>
+                              </div>
+                              <div class="col-md-6 text-right">
+                                <button type="button" data-toggle="button" aria-pressed="Si" autocomplete="No" class="btn btn-sm btn-toggle active">
+                                  <div class="handle"></div>
+                                </button>
+                              </div>
+                            </div>
+                            <div class="col-md-12 col-12 row">
+                              <div class="col-md-6 col-sm-6 col-12">
+                                <div class="form-group">
+                                  <label for="validationDefault01">Nombre su enfermedad</label>
+                                  <input id="validationDefault01" type="text" placeholder="Nombre su enfermedad" required="" class="form-control"/>
+                                </div>
+                              </div>
+                              <div class="col-md-6 col-sm-6 col-12">
+                                <div class="form-group">
+                                  <label for="dni">Documento de identidad</label>
+                                  <input id="dni" type="number" maxlength="8" class="form-control"/>
+                                </div>
+                              </div>
+                              <div class="col-md-6 col-sm-6 col-12">
+                                <div class="form-group">
+                                  <label for="tall">Edad de diagnostico</label>
+                                  <div class="input-pt">
+                                    <input id="talla" type="number" maxlength="4" class="form-control w-pt-pp"/>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col-md-12 col-12">
+                              <div class="col-md-12 col-12">
+                                <div class="form-group">
+                                  <label for="exampleFormControlTextarea1">Tratamientos</label>
+                                  <textarea id="exampleFormControlTextarea1" rows="3" class="form-control area-habit"></textarea>
+                                </div>
+                              </div>
+                            </div>
+                          </form>
+                          <div class="col-md-12 col-12">
+                            <div class="col-md-12 text-right btn-prof-edit">
+                              <button type="submit" class="btn btn-primary">Agregar</button>
+                            </div>
+                          </div>
+                          <div class="col-md-12 col-12">
+                            <h4>Autoconocimiento y autocuidados</h4>
+                            <div class="col-md-12">
+                              <div class="form-group">
+                                <label for="exampleFormControlTextarea1">Conocimiento de su enfermedad</label>
+                                <textarea id="exampleFormControlTextarea1" rows="3" placeholder="Describa brevemente que sabe sobre su enfermedad, de su control y tratamiento." class="form-control area-habit"></textarea>
+                              </div>
+                              <div class="form-group">
+                                <label for="exampleFormControlTextarea1">Conocimiento de su enfermedad</label>
+                                <textarea id="exampleFormControlTextarea1" rows="3" placeholder="Describa brevemente si cree que el ejercicio físico impacta sobre su enfermedad y como." class="form-control area-habit"></textarea>
+                              </div>
+                              <div class="form-group">
+                                <label for="exampleFormControlTextarea1">Conocimiento de su enfermedad</label>
+                                <textarea id="exampleFormControlTextarea1" rows="3" placeholder="Describa brevemente si cree que la modificación de hábitos nutricionales impaca en si enfermedad y como." class="form-control area-habit"></textarea>
+                              </div>
+                              <div class="form-group">
+                                <label for="exampleFormControlTextarea1">Conocimiento de su enfermedad</label>
+                                <textarea id="exampleFormControlTextarea1" rows="3" placeholder="Acude a algunas actividades de programas de club de diabetes, hipertensión o displimedia." class="form-control area-habit"></textarea>
+                              </div>
+                              <div class="form-group">
+                                <label for="exampleFormControlTextarea1">Conocimiento de su enfermedad</label>
+                                <textarea id="exampleFormControlTextarea1" rows="3" placeholder="Que opinion tiene acerca del programa." class="form-control area-habit"></textarea>
+                              </div>
+                              <div class="form-group">
+                                <label for="exampleFormControlTextarea1">Conocimiento de su enfermedad</label>
+                                <textarea id="exampleFormControlTextarea1" rows="3" placeholder="Que actividades realiza dentro del programa." class="form-control area-habit"></textarea>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script crossorigin="anonymous" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script crossorigin="anonymous" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+  <script crossorigin="anonymous" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+  <script src="../js/ad.js"></script>
+  <script src="../js/animacion.js"></script>
+  <script src="../js/head.js"></script>
+  <script defer="" src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+</html>
